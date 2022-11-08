@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+    Name: Miller Dawson - Student ID: 52209073 - Description: November CS1031 Assignment
+    all images and icons throughout the webpage is copy right free, hence allowing free use of the images.
+    documentation of all BS5 can be found at and navigated through from the home link: https://getbootstrap.com/docs/5.0/getting-started/introduction/
+    further documentatinoo of BS5 used in the project can be found at: https://www.w3schools.com/bootstrap5/index.php
+-->
+<html lang="en">
+    <head>
+        <title>Tillicoultry, Clackmannanshire</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <!-- external stylesheet -->
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+
+        <!-- Google fonts -->
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+        </style>
+
+        <!-- importing BS5 css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body> <!-- class="bg-light" -->
+        <!-- Potentially use a sticky nav, need to see how it looks with and without it -->
+
+        <!-- navbar with BS5-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Home</a>
+                <!-- mobile compatability collapses navbar and adds a toggler icon targetting id nav-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- navbar items and contents-->
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="visit.html" class="nav-link">Visit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="history.html" class="nav-link">History</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner Section -->
+        <!-- BS5 Jumbotron for banner -->
+        <!-- potentially change the font of the h1 font + add copy right br br  -->
+        <section class="text-light text-center">
+            <!--Give credits to the banner image from the wikipedia as required both in here and on the web page-->
+            <div class="bg-image text-white text-center" style="background-image: url(../resources/banner.jpeg)">
+                <h1 class="banner-text">Tillicoultry</h1>
+                <p class="banner-text">Founded in 1871</p>
+                <p class="banner-text">"Look Aboot Ye"</p>
+                <p class="banner-text">also known as tilly</p>
+            </div>
+        </section>
+
+        <!-- Can either put this section as blue or white, should check which looks better once finished.-->
+        <!-- Map Section -->
+        <section class="bg-light text-dark text-center py-3">
+            <div class="container">
+                <div class="d-md-flex">
+                    <div>
+                        <h1 class="display-5">Map of Tillicoultry</h1>
+                        <p class="lead">
+                            Tilllicoultry is a small village in Clackmannanshire, having lots of opportunities and around 4500 residents. The postcode for tillicoultry is
+                            FK13 and the map of the village can be found here. Make sure to checkout everything Tillicoultry has too offer!
+                        </p>
+                    </div>
+                    <!-- Static map as required -->
+                    <img src="../resources/map.png" class="img-fluid rounded pt-2" alt="map of Tillicoultry"></img>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 
+            image display section
+            use grid system to style the cards in the middle of the page then float over on themselves, use collapse 
+            so that more info and links can be found
+
+            stack the cards on top of eachother for mobile compatability
+
+            https://getbootstrap.com/docs/5.0/components/card/
+            -->
+        <section class="bg-primary text-light text-center py-3">
+            <!-- Card 1 -->
+            <div class="card bg-dark" style="width:18rem;">
+                <img src="../resources/IMG_3139.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h1 class="card-title">Card Test</h1>
+                    <p class="card-text">Text Test</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card bg-dark" style="width:18rem;">
+                <img src="../resources/IMG_3139.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h1 class="card-title">Card Test</h1>
+                    <p class="card-text">Text Test</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card bg-dark" style="width:18rem;">
+                <img src="../resources/IMG_3139.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h1 class="card-title">Card Test</h1>
+                    <p class="card-text">Text Test</p>
+                </div>
+            </div>
+        </section>
+        <!-- Make use of cards and bs5 columbs and the blue and black colour scheme -->
+
+        <!-- work on footer -->
+        <!-- Footer -->
+        <footer class="bg-dark text-light text-center p-2">
+            <div class="container">
+                <h1 class="display-5">Social Media</h1>
+                <ul>
+                    <li><a href="https://github.com/MillerDawson" class="">Github</li></a>
+                </ul>
+                
+            </div>
+            <p>&copy; Miller Dawson 2022</p>
+        </footer>
+
+        <!-- importing BS5 js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

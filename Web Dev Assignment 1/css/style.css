@@ -1,0 +1,20 @@
+/* Name: Miller Dawson - Student ID: 52209073 - Description: November CS1031 Assignment */
+/* Elements */
+nav{
+    text-transform: uppercase;
+}
+
+
+/* Classes */ 
+.banner-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding: 3px;
+    margin: 0;
+}
+
+p.banner-text{
+    font-size: 20px;
+}
+
+/*.IDs */
