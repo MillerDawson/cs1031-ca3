@@ -77,7 +77,41 @@ footer{
 }
 /* #IDs */
 
-#s1, #s2, #s3{
+#s1, #s2, #s3{ /* Change this to a class on the final version if used in other web pages */
     border-bottom-style:solid;
     border-color: black;
+}
+
+/* Visit.html styles reform this for the final version */
+.visit-button{ /* Change colours in final version */
+    display: inline-block;
+    border-radius:42px;
+    box-shadow: 0px 2px 0px 4px #1b77c2;
+	background-color:#3589ce;
+    padding:10px 25px 10px 25px;
+	text-decoration:none;
+    color: black;
+}
+
+.visit-button:hover{
+    background-color:#3080c2;
+    color: white;
+}
+
+.visit-button:active{ /* Clicking effect */
+    position:relative;
+	top:1px;
+}
+
+#visit-row{
+    padding: 20px 10px 20px 10px;
+}
+
+.collapse-col{
+    padding: 10px;
+    margin: 0px 20px 20px 20px;
+}
+
+.visit-image{
+    margin-bottom: 10px;
 }
