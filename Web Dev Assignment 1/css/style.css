@@ -82,6 +82,11 @@ footer{
     border-color: black;
 }
 
+.section-border{
+    border-bottom-style:solid;
+    border-color: black;
+}
+
 /* Visit.html styles reform this for the final version */
 .visit-button{ /* Change colours in final version */
     display: inline-block;
@@ -114,4 +119,25 @@ footer{
 
 .visit-image{
     margin-bottom: 10px;
+}
+
+/* History.html */
+.sHeader-text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+.history-div{
+    background-color: grey;
+    padding: 5px;
+    border-style: double;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.history-sub{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: orange;
 }
