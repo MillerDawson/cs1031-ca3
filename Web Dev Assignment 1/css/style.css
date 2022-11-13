@@ -25,7 +25,6 @@ nav, .nav-brand{
     margin: 0 0 20px 0;
     padding: 0px;
 }
-
 /* Only hover effect on desktop */
 @media (min-width: 580px){
     .grid-item{
@@ -59,36 +58,25 @@ p.banner-text{
     font-size: 20px;
 }
 
-/*
-Body Overall Style
-This adds a margin of 25px at the left and right of each webpage body, creating the black outline on the pages
-*/
+/* Body Overall Style This adds a margin of 25px at the left and right of each webpage body, creating the black outline on the pages */
 .overall{
     margin: 0px 25px 0px 25px;
 }
-
 /* Footer */
 footer ul{
   list-style-type: none;
 }
-
 footer{
   text-align: center;
 }
 /* #IDs */
-
-#s1, #s2, #s3{ /* Change this to a class on the final version if used in other web pages */
+#s1, #s2, #s3 {
     border-bottom-style:solid;
     border-color: black;
 }
 
-.section-border{
-    border-bottom-style:solid;
-    border-color: black;
-}
-
-/* Visit.html styles reform this for the final version */
-.visit-button{ /* Change colours in final version */
+/* Visit.html styles */
+.visit-button {
     display: inline-block;
     border-radius:42px;
     box-shadow: 0px 2px 0px 4px #1b77c2;
